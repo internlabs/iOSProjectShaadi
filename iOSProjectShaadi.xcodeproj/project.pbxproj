@@ -18,6 +18,9 @@
 		01E201E12C394B9F00CD0C3C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201E02C394B9F00CD0C3C /* LoginViewController.swift */; };
 		01E201E52C394E0200CD0C3C /* LoginViewModelAdaptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201E42C394E0200CD0C3C /* LoginViewModelAdaptable.swift */; };
 		01E201E72C39506300CD0C3C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201E62C39506300CD0C3C /* LoginViewModel.swift */; };
+		ACC0BB262C51050F00FDBD8F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB252C51050F00FDBD8F /* WelcomeView.swift */; };
+		ACC0BB282C51054700FDBD8F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB272C51054700FDBD8F /* WelcomeViewController.swift */; };
+		ACC0BB2A2C51056900FDBD8F /* WelcomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		01E201E02C394B9F00CD0C3C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01E201E42C394E0200CD0C3C /* LoginViewModelAdaptable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelAdaptable.swift; sourceTree = "<group>"; };
 		01E201E62C39506300CD0C3C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		ACC0BB252C51050F00FDBD8F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		ACC0BB272C51054700FDBD8F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeItem.swift; path = iOSProjectShaadi/Features/Onbaording/Views/ViewControllers/WelcomeItem.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 		01E201D72C394A0000CD0C3C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACC0BB252C51050F00FDBD8F /* WelcomeView.swift */,
 				01E201DC2C394A5600CD0C3C /* Cells */,
 				01E201DB2C394A4A00CD0C3C /* ViewControllers */,
 				01E201DA2C394A3D00CD0C3C /* CustomViews */,
@@ -172,6 +179,7 @@
 		01E201D92C394A1100CD0C3C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				01E201E02C394B9F00CD0C3C /* LoginViewController.swift */,
+				ACC0BB272C51054700FDBD8F /* WelcomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -360,11 +369,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E201E12C394B9F00CD0C3C /* LoginViewController.swift in Sources */,
+				ACC0BB282C51054700FDBD8F /* WelcomeViewController.swift in Sources */,
 				01E201E52C394E0200CD0C3C /* LoginViewModelAdaptable.swift in Sources */,
 				01E201E72C39506300CD0C3C /* LoginViewModel.swift in Sources */,
 				01E201AA2C39496000CD0C3C /* ViewController.swift in Sources */,
 				01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */,
+				ACC0BB2A2C51056900FDBD8F /* WelcomeItem.swift in Sources */,
 				01E201A82C39496000CD0C3C /* SceneDelegate.swift in Sources */,
+				ACC0BB262C51050F00FDBD8F /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
