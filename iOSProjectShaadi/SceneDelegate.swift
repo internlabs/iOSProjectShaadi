@@ -11,32 +11,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
   var window: UIWindow?
 
-  func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-    guard let windowScene = (scene as? UIWindowScene) else { return }
-    window = UIWindow(windowScene: windowScene)
-    let viewController = ViewController()
-    window?.rootViewController = viewController
-    window?.makeKeyAndVisible()
-
-//    guard let windowScene = (scene as? UIWindowScene) else { return }
-//
-//    // Create the welcome items
-//    let items = [
-//      WelcomeItem(title: "Find you first Meta Matches", description: "Join us and socialize with millions of meta humans"),
-//    ]
-//
-//    window = UIWindow(windowScene: windowScene)
-//
-//    let viewModel = WelcomeViewModel(items: items)
-//
-//    let welcomeViewController = WelcomeViewController(viewModel: viewModel)
-//    let navigationController = UINavigationController(rootViewController: welcomeViewController)
-//
-//    let window = UIWindow(windowScene: windowScene)
-//    window.rootViewController = navigationController
-//    window.makeKeyAndVisible()
-//    self.window = window
-  }
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        window = UIWindow(windowScene: windowScene)
+        let viewController = LoginViewController()
+        window?.rootViewController = viewController
+        window?.makeKeyAndVisible()
+    }
 
   func sceneDidDisconnect(_ scene: UIScene) {
     // Called as the scene is being released by the system.

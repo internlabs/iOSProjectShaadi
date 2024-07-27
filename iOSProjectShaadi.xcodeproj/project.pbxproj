@@ -9,15 +9,22 @@
 /* Begin PBXBuildFile section */
 		01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201A52C39496000CD0C3C /* AppDelegate.swift */; };
 		01E201A82C39496000CD0C3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201A72C39496000CD0C3C /* SceneDelegate.swift */; };
-		01E201AA2C39496000CD0C3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201A92C39496000CD0C3C /* ViewController.swift */; };
 		01E201AF2C39496200CD0C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E201AE2C39496200CD0C3C /* Assets.xcassets */; };
 		01E201B22C39496200CD0C3C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01E201B12C39496200CD0C3C /* Base */; };
 		01E201BD2C39496200CD0C3C /* iOSProjectShaadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201BC2C39496200CD0C3C /* iOSProjectShaadiTests.swift */; };
 		01E201C72C39496200CD0C3C /* iOSProjectShaadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201C62C39496200CD0C3C /* iOSProjectShaadiUITests.swift */; };
 		01E201C92C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201C82C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift */; };
-		01E201E12C394B9F00CD0C3C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201E02C394B9F00CD0C3C /* LoginViewController.swift */; };
-		01E201E52C394E0200CD0C3C /* LoginViewModelAdaptable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201E42C394E0200CD0C3C /* LoginViewModelAdaptable.swift */; };
-		01E201E72C39506300CD0C3C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201E62C39506300CD0C3C /* LoginViewModel.swift */; };
+		482B8AA62C4ADDB0003E7F06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B8AA42C4ADDB0003E7F06 /* LoginViewController.swift */; };
+		482B8AAE2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */; };
+		482B8AB02C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */; };
+		482B8AB22C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */; };
+		482B8AB62C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */; };
+		482B8AB72C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */; };
+		482B8AB82C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */; };
+		482B8ABA2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */; };
+		482B8ABB2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */; };
+		482B8ABC2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */; };
+		482B8ABE2C4BF3FB003E7F06 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +48,6 @@
 		01E201A22C39496000CD0C3C /* iOSProjectShaadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProjectShaadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E201A52C39496000CD0C3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E201A72C39496000CD0C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01E201A92C39496000CD0C3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01E201AE2C39496200CD0C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E201B12C39496200CD0C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01E201B32C39496200CD0C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,9 +56,11 @@
 		01E201C22C39496200CD0C3C /* iOSProjectShaadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSProjectShaadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E201C62C39496200CD0C3C /* iOSProjectShaadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSProjectShaadiUITests.swift; sourceTree = "<group>"; };
 		01E201C82C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSProjectShaadiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		01E201E02C394B9F00CD0C3C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		01E201E42C394E0200CD0C3C /* LoginViewModelAdaptable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelAdaptable.swift; sourceTree = "<group>"; };
-		01E201E62C39506300CD0C3C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		482B8AA42C4ADDB0003E7F06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Regular.ttf"; sourceTree = "<group>"; };
+		482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Medium.ttf"; sourceTree = "<group>"; };
+		482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +111,10 @@
 		01E201A42C39496000CD0C3C /* iOSProjectShaadi */ = {
 			isa = PBXGroup;
 			children = (
-				01E201D52C3949CA00CD0C3C /* Features */,
 				01E201A52C39496000CD0C3C /* AppDelegate.swift */,
 				01E201A72C39496000CD0C3C /* SceneDelegate.swift */,
-				01E201A92C39496000CD0C3C /* ViewController.swift */,
+				01E201D62C3949D600CD0C3C /* Onboarding */,
+				482B8AB42C4BF0F6003E7F06 /* Utilities */,
 				01E201AE2C39496200CD0C3C /* Assets.xcassets */,
 				01E201B02C39496200CD0C3C /* LaunchScreen.storyboard */,
 				01E201B32C39496200CD0C3C /* Info.plist */,
@@ -131,102 +139,39 @@
 			path = iOSProjectShaadiUITests;
 			sourceTree = "<group>";
 		};
-		01E201D52C3949CA00CD0C3C /* Features */ = {
+		01E201D62C3949D600CD0C3C /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				01E201DE2C394AD400CD0C3C /* Core */,
-				01E201D62C3949D600CD0C3C /* Onbaording */,
+				482B8AA52C4ADDB0003E7F06 /* Login */,
 			);
-			path = Features;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		01E201D62C3949D600CD0C3C /* Onbaording */ = {
+		482B8AA52C4ADDB0003E7F06 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				01E201D92C394A1100CD0C3C /* Models */,
-				01E201D82C394A0800CD0C3C /* ViewModels */,
-				01E201D72C394A0000CD0C3C /* Views */,
+				482B8AA42C4ADDB0003E7F06 /* LoginViewController.swift */,
+				482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */,
 			);
-			path = Onbaording;
+			path = Login;
 			sourceTree = "<group>";
 		};
-		01E201D72C394A0000CD0C3C /* Views */ = {
+		482B8AA72C4AE6A5003E7F06 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				01E201DC2C394A5600CD0C3C /* Cells */,
-				01E201DB2C394A4A00CD0C3C /* ViewControllers */,
-				01E201DA2C394A3D00CD0C3C /* CustomViews */,
+				482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */,
+				482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */,
+				482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */,
 			);
-			path = Views;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
-		01E201D82C394A0800CD0C3C /* ViewModels */ = {
+		482B8AB42C4BF0F6003E7F06 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				01E201E32C394DE400CD0C3C /* ViewModels */,
-				01E201E22C394DBD00CD0C3C /* ViewModelAdapters */,
+				482B8AA72C4AE6A5003E7F06 /* Fonts */,
 			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		01E201D92C394A1100CD0C3C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		01E201DA2C394A3D00CD0C3C /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
-		01E201DB2C394A4A00CD0C3C /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				01E201E02C394B9F00CD0C3C /* LoginViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		01E201DC2C394A5600CD0C3C /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		01E201DE2C394AD400CD0C3C /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				01E201DF2C394ADE00CD0C3C /* UIComponents */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		01E201DF2C394ADE00CD0C3C /* UIComponents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIComponents;
-			sourceTree = "<group>";
-		};
-		01E201E22C394DBD00CD0C3C /* ViewModelAdapters */ = {
-			isa = PBXGroup;
-			children = (
-				01E201E42C394E0200CD0C3C /* LoginViewModelAdaptable.swift */,
-			);
-			path = ViewModelAdapters;
-			sourceTree = "<group>";
-		};
-		01E201E32C394DE400CD0C3C /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				01E201E62C39506300CD0C3C /* LoginViewModel.swift */,
-			);
-			path = ViewModels;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,6 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482B8AB02C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */,
+				482B8ABB2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */,
+				482B8AB82C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf in Resources */,
 				01E201AF2C39496200CD0C3C /* Assets.xcassets in Resources */,
 				01E201B22C39496200CD0C3C /* Base in Resources */,
 			);
@@ -342,6 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482B8AB22C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */,
+				482B8ABC2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */,
+				482B8AB62C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482B8AAE2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */,
+				482B8ABA2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */,
+				482B8AB72C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,10 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E201E12C394B9F00CD0C3C /* LoginViewController.swift in Sources */,
-				01E201E52C394E0200CD0C3C /* LoginViewModelAdaptable.swift in Sources */,
-				01E201E72C39506300CD0C3C /* LoginViewModel.swift in Sources */,
-				01E201AA2C39496000CD0C3C /* ViewController.swift in Sources */,
+				482B8ABE2C4BF3FB003E7F06 /* LoginViewModel.swift in Sources */,
+				482B8AA62C4ADDB0003E7F06 /* LoginViewController.swift in Sources */,
 				01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */,
 				01E201A82C39496000CD0C3C /* SceneDelegate.swift in Sources */,
 			);
@@ -538,7 +490,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RJ4T3D7449;
+				DEVELOPMENT_TEAM = 63N9M44LL4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSProjectShaadi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -566,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RJ4T3D7449;
+				DEVELOPMENT_TEAM = 63N9M44LL4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOSProjectShaadi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
