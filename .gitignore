@@ -88,3 +88,99 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two newlines
+Icon?
+# Thumbnails
+._*
+
+# VSCode
+.vscode/
+
+# Xcode
+build/
+DerivedData/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcuserdatad/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Xcode specific
+*.xcworkspace/
+*.xcodeproj/
+*.xcscheme
+*.xcschemes
+*.xcuserstate
+
+# Temporary files
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Log files
+*.log
+
+# Other
+*.tmp
+*.bak
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# User-specific files
+*.env
+*.secret
+
+# Crashlytics
+crashlytics/
+
+# AppCode
+.idea/
+
+# Misc
+*.tgz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Generated files
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+
+
+
