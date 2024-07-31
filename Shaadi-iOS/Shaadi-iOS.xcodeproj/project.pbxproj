@@ -356,6 +356,8 @@
 				B13D0D4E2C5A8E8E00048280 /* TabbarItem.swift in Sources */,
 				B13D0D5D2C5A909E00048280 /* UIViewController+Extension.swift in Sources */,
 				B13D0D6B2C5AAB0E00048280 /* ShaadiHorizontalImageCarouselSwiftUIViewConfig.swift in Sources */,
+				B13D0D2E2C5A83DF00048280 /* ViewController.swift in Sources */,
+				B13D0D2A2C5A83DF00048280 /* AppDelegate.swift in Sources */,
 				B13D0D2C2C5A83DF00048280 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
