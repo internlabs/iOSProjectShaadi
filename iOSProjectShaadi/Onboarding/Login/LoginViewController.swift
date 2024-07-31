@@ -91,7 +91,8 @@ extension LoginViewController {
 // MARK: Button actions
 extension LoginViewController {
     @objc private func otpButtonTapped() {
-        print("OTP")
+        let otpVC = OTPViewController()
+        navigationController?.pushViewController(otpVC, animated: true)
     }
     
     @objc private func passwordButtonTapped() {

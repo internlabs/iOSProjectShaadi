@@ -25,6 +25,7 @@
 		482B8ABB2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */; };
 		482B8ABC2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */; };
 		482B8ABE2C4BF3FB003E7F06 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */; };
+		48B8D9B22C5763250033AB30 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D9B12C57631E0033AB30 /* OTPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Medium.ttf"; sourceTree = "<group>"; };
 		482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		48B8D9B12C57631E0033AB30 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				482B8AA42C4ADDB0003E7F06 /* LoginViewController.swift */,
+				48B8D9B12C57631E0033AB30 /* OTPViewController.swift */,
 				482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */,
 			);
 			path = Login;
@@ -313,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B8D9B22C5763250033AB30 /* OTPViewController.swift in Sources */,
 				482B8ABE2C4BF3FB003E7F06 /* LoginViewModel.swift in Sources */,
 				482B8AA62C4ADDB0003E7F06 /* LoginViewController.swift in Sources */,
 				01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */,
