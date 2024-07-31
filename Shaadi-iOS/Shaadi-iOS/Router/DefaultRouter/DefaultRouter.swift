@@ -16,9 +16,6 @@ final class DefaultRouterImpl: DefaultRouter {}
 
 extension DefaultRouter {
     func getMessengerViewController() -> UIViewController {
-//        let viewModel = InfoViewModel()
-//        let view = InfoView(viewModel: viewModel)
-//        let viewController = InfoViewController(rootView: view)
         return UIViewController()
     }
 }
