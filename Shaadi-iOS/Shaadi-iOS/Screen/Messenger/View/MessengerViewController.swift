@@ -17,6 +17,8 @@ struct MessengerView: View {
     @StateObject var viewModel: MessengerViewModel
     
     var body: some View {
-        Text("Messanger View")
+        VStack(spacing: .zero) {
+            Text("My Conversations")
+        }
     }
 }
