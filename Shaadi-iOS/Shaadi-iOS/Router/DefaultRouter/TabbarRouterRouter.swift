@@ -18,7 +18,7 @@ final class TabbarRouterImpl: TabbarRouterRouter {
     let defaultRouter: DefaultRouter
     
     var getTabbarItems: [TabbarItem] {
-        [tab1,tab2,tab3,tab4]
+        [tab1,tab2,messages,tab4]
     }
     
     private var tab1: TabbarItem {
@@ -68,28 +68,24 @@ final class TabbarRouterImpl: TabbarRouterRouter {
                   title: .tab2)
     }
  
-    private  var tab3: TabbarItem {
-        
+    private  var messages: TabbarItem {
         let viewController = UIViewController()
         viewController.view.backgroundColor = .white
-#if DEBUG
-        viewController.view.backgroundColor = .blue
-#endif
         let selectedBackgroundColor = UIColor.black
         let unselectedBackgroundColor = UIColor.gray
 
-        let selectedImage = UIImage(systemName: "trash.fill")?
+        let selectedImage = UIImage(systemName: "message.fill")?
             .withTintColor(selectedBackgroundColor)
             .withRenderingMode(.alwaysOriginal)
         
-        let unselectedImage = UIImage(systemName: "trash")?
+        let unselectedImage = UIImage(systemName: "message")?
             .withTintColor(unselectedBackgroundColor)
             .withRenderingMode(.alwaysOriginal)
         
         return TabbarItem(viewController: viewController,
                   selectedImage: selectedImage,
                   unselectedImage: unselectedImage,
-                  title: .tab3)
+                  title: .messages)
     }
     
     private var tab4: TabbarItem {

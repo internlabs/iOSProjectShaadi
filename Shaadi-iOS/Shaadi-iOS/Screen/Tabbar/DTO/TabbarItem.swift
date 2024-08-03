@@ -16,7 +16,7 @@ struct TabbarItem {
     enum LocalizedText: String {
         case tab1 = "Tabbar.tab1"
         case tab2 = "Tabbar.tab2"
-        case tab3 = "Tabbar.tab3"
+        case messages = "Tabbar.messages"
         case tab4 = "Tabbar.tab4"
     }
 }

@@ -22,6 +22,8 @@
 		B13D0D5B2C5A906C00048280 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D0D5A2C5A906B00048280 /* TabBarViewModel.swift */; };
 		B13D0D5D2C5A909E00048280 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D0D5C2C5A909E00048280 /* UIViewController+Extension.swift */; };
 		B13D0D5F2C5A90B500048280 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D0D5E2C5A90B500048280 /* String+Extension.swift */; };
+		B13D0D672C5A96CD00048280 /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D0D662C5A96CD00048280 /* MessengerViewController.swift */; };
+		B13D0D692C5A971C00048280 /* MessengerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D0D682C5A971C00048280 /* MessengerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		B13D0D5A2C5A906B00048280 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		B13D0D5C2C5A909E00048280 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		B13D0D5E2C5A90B500048280 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		B13D0D662C5A96CD00048280 /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		B13D0D682C5A971C00048280 /* MessengerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 		B13D0D4B2C5A8E3000048280 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				B13D0D642C5A96B200048280 /* ViewModel */,
+				B13D0D632C5A96A800048280 /* View */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -228,6 +234,30 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B13D0D632C5A96A800048280 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B13D0D652C5A96B900048280 /* subviews */,
+				B13D0D662C5A96CD00048280 /* MessengerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B13D0D642C5A96B200048280 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B13D0D682C5A971C00048280 /* MessengerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B13D0D652C5A96B900048280 /* subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,10 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13D0D672C5A96CD00048280 /* MessengerViewController.swift in Sources */,
 				B13D0D462C5A8C1300048280 /* DefaultRouter.swift in Sources */,
 				B13D0D5F2C5A90B500048280 /* String+Extension.swift in Sources */,
 				B13D0D5B2C5A906C00048280 /* TabBarViewModel.swift in Sources */,
 				B13D0D592C5A905000048280 /* TabBarController.swift in Sources */,
+				B13D0D692C5A971C00048280 /* MessengerViewModel.swift in Sources */,
 				B13D0D2E2C5A83DF00048280 /* ViewController.swift in Sources */,
 				B13D0D482C5A8CFD00048280 /* TabbarRouterRouter.swift in Sources */,
 				B13D0D2A2C5A83DF00048280 /* AppDelegate.swift in Sources */,
