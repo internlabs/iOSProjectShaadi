@@ -12,12 +12,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
   var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: windowScene)
-        let loginVC = LoginViewController()
-        let navController = UINavigationController(rootViewController: loginVC)
-        self.window?.rootViewController = navController
-        window?.makeKeyAndVisible()
+      guard let windowScene = (scene as? UIWindowScene) else { return }
+
+      // Create the welcome items
+      let items = [
+//        WelcomeItem(subTitle: "Connecting hearts, crafting lifelong bonds.", description: "Join us and find your perfect match among millions."),
+//      ]
+
+        WelcomeItem(description: "Join us and find your perfect match among millions."),
+      ]
+
+      window = UIWindow(windowScene: windowScene)
+
+      let viewModel = WelcomeViewModel(items: items)
+
+      let welcomeViewController = WelcomeViewController(viewModel: viewModel)
+      let navigationController = UINavigationController(rootViewController: welcomeViewController)
+
+      let window = UIWindow(windowScene: windowScene)
+      window.rootViewController = navigationController
+      window.makeKeyAndVisible()
+      self.window = window
     }
 
   func sceneDidDisconnect(_ scene: UIScene) {
