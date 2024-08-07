@@ -26,6 +26,9 @@
 		482B8ABC2C4BF25C003E7F06 /* KumbhSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */; };
 		482B8ABE2C4BF3FB003E7F06 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */; };
 		48B8D9B22C5763250033AB30 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D9B12C57631E0033AB30 /* OTPViewController.swift */; };
+		48B8D9B42C63666B0033AB30 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D9B32C6366650033AB30 /* OTPTextField.swift */; };
+		48B8D9B52C63666B0033AB30 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D9B32C6366650033AB30 /* OTPTextField.swift */; };
+		48B8D9B62C63666B0033AB30 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B8D9B32C6366650033AB30 /* OTPTextField.swift */; };
 		ACC0BB2A2C51056900FDBD8F /* WelcomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */; };
 		ACD9FB1F2C5969E700F4728E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9FB1E2C5969E700F4728E /* WelcomeView.swift */; };
 		ACD9FB212C596A0400F4728E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9FB202C596A0400F4728E /* WelcomeViewController.swift */; };
@@ -69,6 +72,7 @@
 		482B8AB92C4BF25C003E7F06 /* KumbhSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Medium.ttf"; sourceTree = "<group>"; };
 		482B8ABD2C4BF3F5003E7F06 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		48B8D9B12C57631E0033AB30 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		48B8D9B32C6366650033AB30 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 		ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeItem.swift; path = iOSProjectShaadi/Onboarding/Welcome/WelcomeItem.swift; sourceTree = SOURCE_ROOT; };
 		ACD9FB1E2C5969E700F4728E /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = iOSProjectShaadi/Onboarding/Welcome/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
 		ACD9FB202C596A0400F4728E /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = iOSProjectShaadi/Onboarding/Welcome/WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -186,6 +190,7 @@
 		482B8AB42C4BF0F6003E7F06 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				48B8D9B32C6366650033AB30 /* OTPTextField.swift */,
 				482B8AA72C4AE6A5003E7F06 /* Fonts */,
 			);
 			path = Utilities;
@@ -364,6 +369,7 @@
 				01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */,
 				ACC0BB2A2C51056900FDBD8F /* WelcomeItem.swift in Sources */,
 				01E201A82C39496000CD0C3C /* SceneDelegate.swift in Sources */,
+				48B8D9B52C63666B0033AB30 /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E201BD2C39496200CD0C3C /* iOSProjectShaadiTests.swift in Sources */,
+				48B8D9B62C63666B0033AB30 /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +388,7 @@
 			files = (
 				01E201C92C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift in Sources */,
 				01E201C72C39496200CD0C3C /* iOSProjectShaadiUITests.swift in Sources */,
+				48B8D9B42C63666B0033AB30 /* OTPTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
