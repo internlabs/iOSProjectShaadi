@@ -47,9 +47,9 @@ final class OTPViewController: UIViewController {
         let resendAgainTextFont = UIFont(name: "KumbhSans-SemiBold", size: 16)
         resendButtonAttributedText.addAttribute(.font, value: resendButtonTextFont as Any, range: NSMakeRange(0, resendButtonText.count))
         resendButtonAttributedText.addAttribute(.font, value: resendAgainTextFont as Any, range: resendTextRange)
-        resendButtonAttributedText.addAttribute(.foregroundColor, value: UIColor(red: 221/255, green: 87/255, blue: 82/255, alpha: 1), range: resendTextRange)
+        resendButtonAttributedText.addAttribute(.foregroundColor, value: UIColor(named: "flamingoColor") as Any, range: resendTextRange)
         resendButtonAttributedText.addAttribute(.underlineStyle, value: NSUnderlineStyle.thick.rawValue, range: resendTextRange)
-        resendButtonAttributedText.addAttribute(.underlineColor, value: UIColor(red: 221/255, green: 87/255, blue: 82/255, alpha: 1), range: resendTextRange)
+        resendButtonAttributedText.addAttribute(.underlineColor, value: UIColor(named: "flamingoColor") as Any, range: resendTextRange)
         button.setAttributedTitle(resendButtonAttributedText, for: .normal)
         
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -57,13 +57,13 @@ final class OTPViewController: UIViewController {
         return button
     }()
     
-    lazy var submitButton: UIButton = {
+    lazy var nextButton: UIButton = {
         let button = UIButton()
         button.setTitle("Next", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name: "KumbhSans-SemiBold", size: 16)
         button.layer.cornerRadius = 20
-        button.backgroundColor = UIColor(red: 221/255, green: 87/255, blue: 82/255, alpha: 1)
+        button.backgroundColor = UIColor(named: "flamingoColor")
         
         button.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(button)
@@ -108,10 +108,10 @@ extension OTPViewController {
             resendButton.topAnchor.constraint(equalTo: otpStackView.bottomAnchor, constant: 40),
             resendButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
-            submitButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
-            submitButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            submitButton.heightAnchor.constraint(equalToConstant: 55),
-            submitButton.widthAnchor.constraint(equalToConstant: 161)
+            nextButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -50),
+            nextButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            nextButton.heightAnchor.constraint(equalToConstant: 55),
+            nextButton.widthAnchor.constraint(equalToConstant: 161)
         ])
     }
 }

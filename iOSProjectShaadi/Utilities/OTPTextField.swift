@@ -31,7 +31,7 @@ class OTPStackView: UIStackView {
     //Colors
     let inactiveFieldBorderColor = UIColor.black
     let textBackgroundColor = UIColor.clear
-    let activeFieldBorderColor = UIColor(red: 221/255, green: 87/255, blue: 82/255, alpha: 1)
+    let activeFieldBorderColor = UIColor(named: "flamingoColor")
     var remainingStrStack: [String] = []
     
     required init(coder: NSCoder) {
@@ -140,7 +140,7 @@ extension OTPStackView: UITextFieldDelegate {
             setAllFieldColor(color: inactiveFieldBorderColor)
             showsWarningColor = false
         }
-        textField.layer.borderColor = activeFieldBorderColor.cgColor
+        textField.layer.borderColor = activeFieldBorderColor?.cgColor
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {

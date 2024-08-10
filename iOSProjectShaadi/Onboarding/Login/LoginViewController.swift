@@ -31,7 +31,7 @@ final class LoginViewController: UIViewController {
     
     lazy var numberTextField: UITextField = {
         let textField = UITextField()
-        textField.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
+        textField.backgroundColor = UIColor(named: "grayColor")
         textField.font = UIFont(name: "KumbhSans-Medium", size: 14)
         textField.placeholder = "+91 Enter Phone Number"
         textField.layer.cornerRadius = 5.0
@@ -44,7 +44,7 @@ final class LoginViewController: UIViewController {
     lazy var otpButton: UIButton = {
         let button = UIButton()
         button.setTitle("Send One Time Password", for: .normal)
-        button.backgroundColor = UIColor(red: 239/255, green: 75/255, blue: 75/255, alpha: 1)
+        button.backgroundColor = UIColor(named: "flamingoColor")
         button.titleLabel?.font = UIFont(name: "KumbhSans-SemiBold", size: 16)
         button.layer.cornerRadius = 20
         
@@ -56,10 +56,10 @@ final class LoginViewController: UIViewController {
     lazy var passwordButton: UIButton = {
         let button = UIButton()
         button.setTitle("Login using Password", for: .normal)
-        button.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
+        button.backgroundColor = UIColor(named: "grayColor")
         button.titleLabel?.font = UIFont(name: "KumbhSans-SemiBold", size: 16)
         button.layer.cornerRadius = 20
-        button.setTitleColor(UIColor(red: 239/255, green: 75/255, blue: 75/255, alpha: 1), for: .normal)
+        button.setTitleColor(UIColor(named: "flamingoColor"), for: .normal)
         
         button.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(button)
@@ -120,6 +120,8 @@ extension LoginViewController {
     }
     
     @objc private func passwordButtonTapped() {
-        print("Password")
+        let passwordVC = PasswordViewController()
+        passwordVC.modalPresentationStyle = .overCurrentContext
+        present(passwordVC, animated: true)
     }
 }
