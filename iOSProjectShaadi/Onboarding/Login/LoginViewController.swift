@@ -78,6 +78,7 @@ final class LoginViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         setupConstraints()
     }
 }

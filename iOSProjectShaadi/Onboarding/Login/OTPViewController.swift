@@ -82,6 +82,7 @@ final class OTPViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         setupConstraints()
     }
 }

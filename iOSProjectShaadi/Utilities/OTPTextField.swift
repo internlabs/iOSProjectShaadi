@@ -12,7 +12,7 @@ protocol OTPDelegate: AnyObject {
     func didChangeValidity(isValid: Bool)
 }
 
-class OTPTextField: UITextField {
+final class OTPTextField: UITextField {
     weak var previousTextField: OTPTextField?
     weak var nextTextField: OTPTextField?
     override public func deleteBackward() {
@@ -21,7 +21,7 @@ class OTPTextField: UITextField {
     }
 }
 
-class OTPStackView: UIStackView {
+final class OTPStackView: UIStackView {
     //Customise the OTPField here
     let numberOfFields = 4
     var textFieldsCollection: [OTPTextField] = []
