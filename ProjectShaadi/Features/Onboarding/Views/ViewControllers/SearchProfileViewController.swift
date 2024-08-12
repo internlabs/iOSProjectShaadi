@@ -7,9 +7,9 @@
 
 import UIKit
 
-class SearchViewController: UIViewController, UITextFieldDelegate {
+final class SearchViewController: UIViewController, UITextFieldDelegate {
     
-    let viewModel = SearchViewModel()
+    var viewModel = SearchViewModel()
     let searchProfileView = SearchProfileView()
     
 

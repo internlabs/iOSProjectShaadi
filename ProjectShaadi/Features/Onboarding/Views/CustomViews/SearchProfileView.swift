@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchProfileView: UIView {
+final class SearchProfileView: UIView {
      let titleLabel = UILabel()
      let profileIDTextField = UITextField()
      let showProfilesButton = UIButton(type: .system)
@@ -63,26 +63,26 @@ class SearchProfileView: UIView {
         
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor,constant: 40),
-            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 46),
+            titleLabel.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 46),
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -25),
             
             profileIDTextField.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 30),
-            profileIDTextField.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 46),
-            profileIDTextField.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -46),
+            profileIDTextField.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 46),
+            profileIDTextField.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -46),
             profileIDTextField.heightAnchor.constraint(equalToConstant: 50),
             
+            showProfilesButton.topAnchor.constraint(equalTo: profileIDTextField.bottomAnchor, constant: 200),
             showProfilesButton.heightAnchor.constraint(equalToConstant: 55),
-            showProfilesButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 50),
-            showProfilesButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -50),
+            showProfilesButton.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 50),
+            showProfilesButton.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -50),
             
             orLabel.topAnchor.constraint(equalTo: showProfilesButton.bottomAnchor, constant: 20),
             orLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             
             searchByCriteriaButton.topAnchor.constraint(equalTo: orLabel.bottomAnchor, constant: 20),
             searchByCriteriaButton.heightAnchor.constraint(equalToConstant: 55),
-            searchByCriteriaButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 50),
-            searchByCriteriaButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -50),
-            searchByCriteriaButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -80)
+            searchByCriteriaButton.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 50),
+            searchByCriteriaButton.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -50),
         ])
     }
     

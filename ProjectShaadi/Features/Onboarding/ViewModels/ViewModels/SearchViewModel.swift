@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SearchViewModel {
+struct SearchViewModel {
     
     var profileID: String = ""
     
