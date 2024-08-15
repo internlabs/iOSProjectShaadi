@@ -69,7 +69,7 @@ final class TabbarRouterImpl: TabbarRouterRouter {
     }
  
     private  var messages: TabbarItem {
-        let viewController = UIViewController()
+        let viewController = getMessengerViewController()
         viewController.view.backgroundColor = .white
         let selectedBackgroundColor = UIColor.black
         let unselectedBackgroundColor = UIColor.gray
