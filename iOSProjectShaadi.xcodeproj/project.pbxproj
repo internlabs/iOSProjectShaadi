@@ -14,6 +14,21 @@
 		01E201BD2C39496200CD0C3C /* iOSProjectShaadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201BC2C39496200CD0C3C /* iOSProjectShaadiTests.swift */; };
 		01E201C72C39496200CD0C3C /* iOSProjectShaadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201C62C39496200CD0C3C /* iOSProjectShaadiUITests.swift */; };
 		01E201C92C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E201C82C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift */; };
+		1D0BFCAC2C6E001600DDC7D8 /* CriteriaHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BFCAB2C6E001600DDC7D8 /* CriteriaHeaderView.swift */; };
+		1D0BFCAE2C6E04AA00DDC7D8 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BFCAD2C6E04AA00DDC7D8 /* UITableView+Extension.swift */; };
+		1D0BFCB02C6E04BB00DDC7D8 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BFCAF2C6E04BB00DDC7D8 /* UICollectionView+Extension.swift */; };
+		1D0BFCB22C6E04F000DDC7D8 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BFCB12C6E04F000DDC7D8 /* NSObject+Extension.swift */; };
+		1D0BFCB42C6E053C00DDC7D8 /* SearchByCriteriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BFCB32C6E053C00DDC7D8 /* SearchByCriteriaModel.swift */; };
+		1D0BFCBB2C6E50EF00DDC7D8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BFCBA2C6E50EF00DDC7D8 /* UIView+Extension.swift */; };
+		1DD22BD32C6DCE10002C4C5D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD12C6DCE10002C4C5D /* BaseTableViewCell.swift */; };
+		1DD22BD42C6DCE10002C4C5D /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD22C6DCE10002C4C5D /* BaseCollectionViewCell.swift */; };
+		1DD22BD72C6DCE3F002C4C5D /* CriteriaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD52C6DCE3F002C4C5D /* CriteriaTableViewCell.swift */; };
+		1DD22BD82C6DCE3F002C4C5D /* CriteriaTagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD62C6DCE3F002C4C5D /* CriteriaTagCollectionViewCell.swift */; };
+		1DD22BDA2C6DCE4C002C4C5D /* SearchByCriteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD92C6DCE4C002C4C5D /* SearchByCriteriaViewController.swift */; };
+		1DD22BDD2C6DCEB2002C4C5D /* SearchByCriteriaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BDC2C6DCEB2002C4C5D /* SearchByCriteriaViewModel.swift */; };
+		1DD22BDE2C6DCF7C002C4C5D /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD22C6DCE10002C4C5D /* BaseCollectionViewCell.swift */; };
+		1DD22BDF2C6DCF7C002C4C5D /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BD22C6DCE10002C4C5D /* BaseCollectionViewCell.swift */; };
+		1DD22BE12C6DCFAF002C4C5D /* UItextField + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22BE02C6DCFAF002C4C5D /* UItextField + Extension.swift */; };
 		482B8AA62C4ADDB0003E7F06 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482B8AA42C4ADDB0003E7F06 /* LoginViewController.swift */; };
 		482B8AAE2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */; };
 		482B8AB02C4AE8F3003E7F06 /* KumbhSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */; };
@@ -63,6 +78,19 @@
 		01E201C22C39496200CD0C3C /* iOSProjectShaadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSProjectShaadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E201C62C39496200CD0C3C /* iOSProjectShaadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSProjectShaadiUITests.swift; sourceTree = "<group>"; };
 		01E201C82C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSProjectShaadiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D0BFCAB2C6E001600DDC7D8 /* CriteriaHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriteriaHeaderView.swift; sourceTree = "<group>"; };
+		1D0BFCAD2C6E04AA00DDC7D8 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		1D0BFCAF2C6E04BB00DDC7D8 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		1D0BFCB12C6E04F000DDC7D8 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1D0BFCB32C6E053C00DDC7D8 /* SearchByCriteriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByCriteriaModel.swift; sourceTree = "<group>"; };
+		1D0BFCBA2C6E50EF00DDC7D8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1DD22BD12C6DCE10002C4C5D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		1DD22BD22C6DCE10002C4C5D /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		1DD22BD52C6DCE3F002C4C5D /* CriteriaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriteriaTableViewCell.swift; sourceTree = "<group>"; };
+		1DD22BD62C6DCE3F002C4C5D /* CriteriaTagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriteriaTagCollectionViewCell.swift; sourceTree = "<group>"; };
+		1DD22BD92C6DCE4C002C4C5D /* SearchByCriteriaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchByCriteriaViewController.swift; sourceTree = "<group>"; };
+		1DD22BDC2C6DCEB2002C4C5D /* SearchByCriteriaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchByCriteriaViewModel.swift; sourceTree = "<group>"; };
+		1DD22BE02C6DCFAF002C4C5D /* UItextField + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UItextField + Extension.swift"; sourceTree = "<group>"; };
 		482B8AA42C4ADDB0003E7F06 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		482B8AAD2C4AE8F3003E7F06 /* KumbhSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-Regular.ttf"; sourceTree = "<group>"; };
 		482B8AB52C4BF1E7003E7F06 /* KumbhSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -128,6 +156,7 @@
 				01E201A72C39496000CD0C3C /* SceneDelegate.swift */,
 				01E201D62C3949D600CD0C3C /* Onboarding */,
 				482B8AB42C4BF0F6003E7F06 /* Utilities */,
+				1DD22BD02C6DCDD6002C4C5D /* UI Extensions */,
 				01E201AE2C39496200CD0C3C /* Assets.xcassets */,
 				01E201B02C39496200CD0C3C /* LaunchScreen.storyboard */,
 				01E201B32C39496200CD0C3C /* Info.plist */,
@@ -155,9 +184,43 @@
 		01E201D62C3949D600CD0C3C /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				1DD22BCE2C6DC987002C4C5D /* Search Profile */,
 				482B8AA52C4ADDB0003E7F06 /* Login */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		1DD22BCE2C6DC987002C4C5D /* Search Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1DD22BDC2C6DCEB2002C4C5D /* SearchByCriteriaViewModel.swift */,
+				1DD22BD92C6DCE4C002C4C5D /* SearchByCriteriaViewController.swift */,
+				1DD22BCF2C6DC9C9002C4C5D /* Cells */,
+				1D0BFCB32C6E053C00DDC7D8 /* SearchByCriteriaModel.swift */,
+			);
+			path = "Search Profile";
+			sourceTree = "<group>";
+		};
+		1DD22BCF2C6DC9C9002C4C5D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1D0BFCAB2C6E001600DDC7D8 /* CriteriaHeaderView.swift */,
+				1DD22BD52C6DCE3F002C4C5D /* CriteriaTableViewCell.swift */,
+				1DD22BD62C6DCE3F002C4C5D /* CriteriaTagCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1DD22BD02C6DCDD6002C4C5D /* UI Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DD22BE02C6DCFAF002C4C5D /* UItextField + Extension.swift */,
+				1D0BFCAD2C6E04AA00DDC7D8 /* UITableView+Extension.swift */,
+				1D0BFCAF2C6E04BB00DDC7D8 /* UICollectionView+Extension.swift */,
+				1D0BFCB12C6E04F000DDC7D8 /* NSObject+Extension.swift */,
+				1D0BFCBA2C6E50EF00DDC7D8 /* UIView+Extension.swift */,
+			);
+			path = "UI Extensions";
 			sourceTree = "<group>";
 		};
 		482B8AA52C4ADDB0003E7F06 /* Login */ = {
@@ -184,6 +247,8 @@
 		482B8AB42C4BF0F6003E7F06 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1DD22BD12C6DCE10002C4C5D /* BaseTableViewCell.swift */,
+				1DD22BD22C6DCE10002C4C5D /* BaseCollectionViewCell.swift */,
 				48B8D9B32C6366650033AB30 /* OTPTextField.swift */,
 				482B8AA72C4AE6A5003E7F06 /* Fonts */,
 			);
@@ -343,13 +408,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD22BD32C6DCE10002C4C5D /* BaseTableViewCell.swift in Sources */,
+				1DD22BE12C6DCFAF002C4C5D /* UItextField + Extension.swift in Sources */,
 				48B8D9B22C5763250033AB30 /* OTPViewController.swift in Sources */,
+				1D0BFCAC2C6E001600DDC7D8 /* CriteriaHeaderView.swift in Sources */,
+				1D0BFCB42C6E053C00DDC7D8 /* SearchByCriteriaModel.swift in Sources */,
+				1DD22BD42C6DCE10002C4C5D /* BaseCollectionViewCell.swift in Sources */,
 				482B8ABE2C4BF3FB003E7F06 /* LoginViewModel.swift in Sources */,
 				48B8D9B82C6376160033AB30 /* PasswordViewController.swift in Sources */,
 				482B8AA62C4ADDB0003E7F06 /* LoginViewController.swift in Sources */,
+				1DD22BDA2C6DCE4C002C4C5D /* SearchByCriteriaViewController.swift in Sources */,
 				01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */,
 				01E201A82C39496000CD0C3C /* SceneDelegate.swift in Sources */,
+				1D0BFCB22C6E04F000DDC7D8 /* NSObject+Extension.swift in Sources */,
+				1DD22BDD2C6DCEB2002C4C5D /* SearchByCriteriaViewModel.swift in Sources */,
+				1DD22BD72C6DCE3F002C4C5D /* CriteriaTableViewCell.swift in Sources */,
 				48B8D9B52C63666B0033AB30 /* OTPTextField.swift in Sources */,
+				1DD22BD82C6DCE3F002C4C5D /* CriteriaTagCollectionViewCell.swift in Sources */,
+				1D0BFCAE2C6E04AA00DDC7D8 /* UITableView+Extension.swift in Sources */,
+				1D0BFCBB2C6E50EF00DDC7D8 /* UIView+Extension.swift in Sources */,
+				1D0BFCB02C6E04BB00DDC7D8 /* UICollectionView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +437,7 @@
 			files = (
 				01E201BD2C39496200CD0C3C /* iOSProjectShaadiTests.swift in Sources */,
 				48B8D9B62C63666B0033AB30 /* OTPTextField.swift in Sources */,
+				1DD22BDF2C6DCF7C002C4C5D /* BaseCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E201C92C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift in Sources */,
+				1DD22BDE2C6DCF7C002C4C5D /* BaseCollectionViewCell.swift in Sources */,
 				01E201C72C39496200CD0C3C /* iOSProjectShaadiUITests.swift in Sources */,
 				48B8D9B42C63666B0033AB30 /* OTPTextField.swift in Sources */,
 			);
