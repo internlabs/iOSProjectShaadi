@@ -12,14 +12,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
     
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-        
-        let navigationController = UINavigationController(rootViewController: LoginViewController())
-        
-        let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = navigationController
-        window.makeKeyAndVisible()
-        self.window = window
+      guard let windowScene = (scene as? UIWindowScene) else { return }
+
+      // Create the welcome items
+//      let items = [
+//        WelcomeItem(subTitle: "Connecting hearts, crafting lifelong bonds.", description: "Join us and find your perfect match among millions."),
+//      ]
+
+//        WelcomeItem(description: "Join us and find your perfect match among millions."),
+//      ]
+//
+//      window = UIWindow(windowScene: windowScene)
+//
+//      let viewModel = WelcomeViewModel(items: items)
+//
+//      let welcomeViewController = WelcomeViewController(viewModel: viewModel)
+//      let navigationController = UINavigationController(rootViewController: welcomeViewController)
+//
+//      let window = UIWindow(windowScene: windowScene)
+//      window.rootViewController = navigationController
+//      window.makeKeyAndVisible()
+//      self.window = window
+        loadRootViewController(windowScene)
+
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,4 +66,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     
+}
+
+extension SceneDelegate {
+    func loadRootViewController(_ windowScene: UIWindowScene) {
+        window = UIWindow(windowScene: windowScene)
+        window?.windowScene = windowScene
+        let viewController = UIViewController()
+        viewController.view.backgroundColor = .red
+        
+        let router = TabbarRouterImpl()
+        window?.rootViewController = UINavigationController(
+            rootViewController: router.loadTabbarController()
+        )
+        window?.makeKeyAndVisible()
+    }
 }
