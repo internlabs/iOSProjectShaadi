@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CriteriaHeaderView: UITableViewHeaderFooterView {
+final class CriteriaHeaderView: UITableViewHeaderFooterView {
     
     // UI elements
     private lazy var titleLabel: UILabel = {
@@ -29,7 +29,7 @@ class CriteriaHeaderView: UITableViewHeaderFooterView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setupUI() {
+    private func setupUI() {
         contentView.addSubview(titleLabel)
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.topAnchor,constant: 0),

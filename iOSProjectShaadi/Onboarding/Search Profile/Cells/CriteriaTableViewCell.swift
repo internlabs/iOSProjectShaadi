@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CriteriaTableViewCell: BaseTableViewCell {
+final class CriteriaTableViewCell: BaseTableViewCell {
     
     // Helper components
     var cellType: Criteria = .ageGroup {
@@ -62,7 +62,7 @@ class CriteriaTableViewCell: BaseTableViewCell {
         contentView.subviews.forEach({ $0.removeFromSuperview() })
     }
     
-    func setupTextField() {
+    private func setupTextField() {
         NSLayoutConstraint.activate([
             criteriaTitleLabel.topAnchor.constraint(equalTo: contentView.topAnchor,constant: 20),
             criteriaTitleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor,constant: 16),
@@ -77,7 +77,7 @@ class CriteriaTableViewCell: BaseTableViewCell {
         ])
     }
     
-    func setupCollectionView() {
+    private func setupCollectionView() {
         NSLayoutConstraint.activate([
             criteriaTitleLabel.topAnchor.constraint(equalTo: contentView.topAnchor,constant: 30),
             criteriaTitleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor,constant: 16),

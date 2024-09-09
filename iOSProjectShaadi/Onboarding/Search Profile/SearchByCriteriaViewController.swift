@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchByCriteriaViewController: UIViewController {
+final class SearchByCriteriaViewController: UIViewController {
     
     let viewModel = SearchByCriteriaViewModel()
     

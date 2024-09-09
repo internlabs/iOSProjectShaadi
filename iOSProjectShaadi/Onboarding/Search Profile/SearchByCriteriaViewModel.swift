@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SearchByCriteriaViewModel {
+struct SearchByCriteriaViewModel {
         
     func searchByCriteria() {
         print("Searching by Criteria")

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CriteriaTagCollectionViewCell : BaseCollectionViewCell {
+final class CriteriaTagCollectionViewCell : BaseCollectionViewCell {
     
     // UI elements
     private lazy var titleLabel: UILabel = {
@@ -25,14 +25,14 @@ class CriteriaTagCollectionViewCell : BaseCollectionViewCell {
         setupUI()
     }
     
-    func setupUI() {
+    private func setupUI() {
         contentView.addSubview(titleLabel)
         contentView.setRadius(18)
         contentView.setBorder(color: UIColor(named: "grayColor") ?? .clear, width: 2.0)
         setupConstraints()
     }
     
-    func setupConstraints() {
+    private func setupConstraints() {
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: contentView.topAnchor,constant: 0),
             titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor,constant: 0),
