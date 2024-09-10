@@ -7,8 +7,6 @@
 
 // TODO: -
 // Add Checkbox
-// Update all fonts
-// Update next button
 
 import UIKit
 
@@ -17,6 +15,7 @@ class SignUpViewController: UIViewController {
     let textField = UITextField()
     textField.translatesAutoresizingMaskIntoConstraints = false
     textField.placeholder = "Enter full name"
+    textField.font = UIFont(name: "KumbhSans-Regular", size: 14)
     textField.layer.cornerRadius = 5
     textField.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
     return textField
@@ -26,6 +25,7 @@ class SignUpViewController: UIViewController {
     let textField = UITextField()
     textField.translatesAutoresizingMaskIntoConstraints = false
     textField.placeholder = "Enter Email"
+    textField.font = UIFont(name: "KumbhSans-Regular", size: 14)
     textField.autocapitalizationType = .none
     textField.layer.cornerRadius = 5
     textField.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
@@ -36,6 +36,7 @@ class SignUpViewController: UIViewController {
     let textField = UITextField()
     textField.translatesAutoresizingMaskIntoConstraints = false
     textField.placeholder = "Enter Password"
+    textField.font = UIFont(name: "KumbhSans-Regular", size: 14)
     textField.layer.cornerRadius = 5
     textField.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
     textField.isSecureTextEntry = true
@@ -46,6 +47,7 @@ class SignUpViewController: UIViewController {
     let textField = UITextField()
     textField.translatesAutoresizingMaskIntoConstraints = false
     textField.placeholder = "Enter Phone Number"
+    textField.font = UIFont(name: "KumbhSans-Regular", size: 14)
     textField.layer.cornerRadius = 5
     textField.backgroundColor = UIColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
     let countryCodeLabel = UILabel()
@@ -78,6 +80,7 @@ class SignUpViewController: UIViewController {
     titleLabel.textColor = .black
     titleLabel.font = UIFont.systemFont(ofSize: 24)
     titleLabel.text = "Complete your profile 👋"
+    titleLabel.font = UIFont(name: "KumbhSans-Medium", size: 24)
     titleLabel.numberOfLines = 0
     self.view.addSubview(titleLabel)
 
@@ -100,7 +103,7 @@ class SignUpViewController: UIViewController {
     let turnOffLabel = UILabel()
     turnOffLabel.translatesAutoresizingMaskIntoConstraints = false
     turnOffLabel.text = "If you turn off, you wont be able to see name of other members"
-    turnOffLabel.font = UIFont.systemFont(ofSize: 10)
+    turnOffLabel.font = UIFont(name: "KumbhSans-Regular", size: 10)
     turnOffLabel.textColor = UIColor(red: 95/255, green: 99/255, blue: 104/255, alpha: 1)
     self.view.addSubview(turnOffLabel)
 
@@ -108,7 +111,7 @@ class SignUpViewController: UIViewController {
     let contactLabel = UILabel()
     contactLabel.translatesAutoresizingMaskIntoConstraints = false
     contactLabel.text = "Contact Privacy Settings"
-    contactLabel.font = UIFont.systemFont(ofSize: 14)
+    contactLabel.font = UIFont(name: "KumbhSans-Regular", size: 14)
     contactLabel.textColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.5)
     self.view.addSubview(contactLabel)
 
@@ -125,19 +128,25 @@ class SignUpViewController: UIViewController {
     self.view.addSubview(showToMembersLabel)
 
     // Next Button
-    let nextButton = UIButton()
-    nextButton.translatesAutoresizingMaskIntoConstraints = false
-    nextButton.setTitle("Next", for: .normal)
-    nextButton.backgroundColor = UIColor(red: 239/255, green: 75/255, blue: 75/255, alpha: 1)
-    nextButton.layer.cornerRadius = 20
-    nextButton.addTarget(self, action: #selector(didTapNext(_:)), for: .touchUpInside)
-    self.view.addSubview(nextButton)
+    lazy var nextButton: UIButton = {
+      let button = UIButton()
+      button.setTitle("Next", for: .normal)
+      button.setTitleColor(.white, for: .normal)
+      button.titleLabel?.font = UIFont(name: "KumbhSans-SemiBold", size: 16)
+      button.layer.cornerRadius = 20
+      button.backgroundColor = UIColor(named: "flamingoColor")
+
+      button.addTarget(self, action: #selector(didTapNext(_:)), for: .touchUpInside)
+      button.translatesAutoresizingMaskIntoConstraints = false
+      view.addSubview(button)
+      return button
+    }()
 
     // Constraints
     NSLayoutConstraint.activate([
       titleLabel.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 101),
       titleLabel.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant: 46),
-      titleLabel.widthAnchor.constraint(equalToConstant: 258),
+      titleLabel.widthAnchor.constraint(equalToConstant: 300),
       titleLabel.heightAnchor.constraint(equalToConstant: 62),
 
       usernameTextField.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 180),
@@ -213,7 +222,7 @@ class SignUpViewController: UIViewController {
     label.translatesAutoresizingMaskIntoConstraints = false
     label.text = text
     label.textAlignment = .center
-    label.font = UIFont.systemFont(ofSize: 14)
+    label.font = UIFont(name: "KumbhSans-Regular", size: 14)
     label.textColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.5)
     label.layer.borderWidth = 2
     label.layer.borderColor = CGColor(red: 244/255, green: 244/255, blue: 244/255, alpha: 1)
