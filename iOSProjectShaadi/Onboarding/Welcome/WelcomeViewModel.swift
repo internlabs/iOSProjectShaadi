@@ -2,7 +2,7 @@
 //  WelcomeViewModel.swift
 //  iOSProjectShaadi
 //
-//  Created by Rathi, Radhika on 31/07/2024.
+//  Created by Rathi Radhika on 31/07/2024.
 //
 
 import Foundation
@@ -14,20 +14,10 @@ protocol WelcomeViewModelDelegate {
 
 final class WelcomeViewModel {
   var delegate: WelcomeViewModelDelegate?
-  private var items: [WelcomeItem]
   private var currentIndex: Int = 0
 
   var navigateToSignUp: (() -> Void)?
   var navigateToFirstLogin: (() -> Void)?
-
-
-  var currentItem: WelcomeItem {
-    return items[currentIndex]
-  }
-
-  init(items: [WelcomeItem]) {
-    self.items = items
-  }
 
   func handleGetStarted() {
     navigateToSignUp?()

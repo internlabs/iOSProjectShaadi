@@ -2,7 +2,7 @@
 //  WelcomeViewController.swift
 //  iOSProjectShaadi
 //
-//  Created by Rathi, Radhika on 24/07/2024.
+//  Created by Rathi Radhika on 24/07/2024.
 //
 
 import UIKit
@@ -58,8 +58,6 @@ final class WelcomeViewController: UIViewController, WelcomeViewModelDelegate {
 
   private func updateView() {
     print("updateView called")
-    let currentItem = viewModel.currentItem
-    welcomeView.configure(with: currentItem)
   }
 
   // MARK: - WelcomeViewModelDelegate Methods

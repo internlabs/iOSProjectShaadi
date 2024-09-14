@@ -14,17 +14,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
       guard let windowScene = (scene as? UIWindowScene) else { return }
 
-      // Create the welcome items
-      let items = [
-//        WelcomeItem(subTitle: "Connecting hearts, crafting lifelong bonds.", description: "Join us and find your perfect match among millions."),
-//      ]
-
-        WelcomeItem(description: "Join us and find your perfect match among millions."),
-      ]
-
       window = UIWindow(windowScene: windowScene)
 
-      let viewModel = WelcomeViewModel(items: items)
+      let viewModel = WelcomeViewModel()
 
       let welcomeViewController = WelcomeViewController(viewModel: viewModel)
       let navigationController = UINavigationController(rootViewController: welcomeViewController)

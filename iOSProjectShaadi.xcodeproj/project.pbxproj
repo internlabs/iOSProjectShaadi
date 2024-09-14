@@ -33,9 +33,6 @@
 		AC6ACC062C7030EA002ED8A7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6ACC052C7030EA002ED8A7 /* SignUpViewController.swift */; };
 		AC6ACC0A2C70D5E2002ED8A7 /* VerifyPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6ACC092C70D5E2002ED8A7 /* VerifyPhoneNumberViewController.swift */; };
 		AC6ACC0C2C70DAFD002ED8A7 /* RegistrationSuccessfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6ACC0B2C70DAFD002ED8A7 /* RegistrationSuccessfulViewController.swift */; };
-		AC6ACC0D2C70DB2D002ED8A7 /* WelcomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */; };
-		AC6ACC0E2C70DB2D002ED8A7 /* WelcomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */; };
-		ACC0BB2A2C51056900FDBD8F /* WelcomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */; };
 		ACD9FB1F2C5969E700F4728E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9FB1E2C5969E700F4728E /* WelcomeView.swift */; };
 		ACD9FB212C596A0400F4728E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9FB202C596A0400F4728E /* WelcomeViewController.swift */; };
 		ACD9FB242C5A529D00F4728E /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9FB232C5A529D00F4728E /* WelcomeViewModel.swift */; };
@@ -83,7 +80,6 @@
 		AC6ACC052C7030EA002ED8A7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC6ACC092C70D5E2002ED8A7 /* VerifyPhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNumberViewController.swift; sourceTree = "<group>"; };
 		AC6ACC0B2C70DAFD002ED8A7 /* RegistrationSuccessfulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationSuccessfulViewController.swift; sourceTree = "<group>"; };
-		ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeItem.swift; path = iOSProjectShaadi/Utilities/WelcomeItem.swift; sourceTree = SOURCE_ROOT; };
 		ACD9FB1E2C5969E700F4728E /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = iOSProjectShaadi/Onboarding/Welcome/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
 		ACD9FB202C596A0400F4728E /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = iOSProjectShaadi/Onboarding/Welcome/WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		ACD9FB232C5A529D00F4728E /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
@@ -172,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD9FB222C596C0000F4728E /* Welcome */,
+				48B8B1AB2C94470F004E29FC /* Signup */,
 				482B8AA52C4ADDB0003E7F06 /* Login */,
 			);
 			path = Onboarding;
@@ -201,11 +198,20 @@
 		482B8AB42C4BF0F6003E7F06 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				ACC0BB292C51056900FDBD8F /* WelcomeItem.swift */,
 				48B8D9B32C6366650033AB30 /* OTPTextField.swift */,
 				482B8AA72C4AE6A5003E7F06 /* Fonts */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		48B8B1AB2C94470F004E29FC /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				AC6ACC052C7030EA002ED8A7 /* SignUpViewController.swift */,
+				AC6ACC092C70D5E2002ED8A7 /* VerifyPhoneNumberViewController.swift */,
+				AC6ACC0B2C70DAFD002ED8A7 /* RegistrationSuccessfulViewController.swift */,
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 		ACD9FB1D2C59695000F4728E /* Recovered References */ = {
@@ -221,9 +227,6 @@
 				ACD9FB1E2C5969E700F4728E /* WelcomeView.swift */,
 				ACD9FB202C596A0400F4728E /* WelcomeViewController.swift */,
 				ACD9FB232C5A529D00F4728E /* WelcomeViewModel.swift */,
-				AC6ACC052C7030EA002ED8A7 /* SignUpViewController.swift */,
-				AC6ACC092C70D5E2002ED8A7 /* VerifyPhoneNumberViewController.swift */,
-				AC6ACC0B2C70DAFD002ED8A7 /* RegistrationSuccessfulViewController.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -384,7 +387,6 @@
 				AC6ACC0C2C70DAFD002ED8A7 /* RegistrationSuccessfulViewController.swift in Sources */,
 				ACD9FB1F2C5969E700F4728E /* WelcomeView.swift in Sources */,
 				01E201A62C39496000CD0C3C /* AppDelegate.swift in Sources */,
-				ACC0BB2A2C51056900FDBD8F /* WelcomeItem.swift in Sources */,
 				01E201A82C39496000CD0C3C /* SceneDelegate.swift in Sources */,
 				AC6ACC0A2C70D5E2002ED8A7 /* VerifyPhoneNumberViewController.swift in Sources */,
 				48B8D9B52C63666B0033AB30 /* OTPTextField.swift in Sources */,
@@ -395,7 +397,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC6ACC0E2C70DB2D002ED8A7 /* WelcomeItem.swift in Sources */,
 				01E201BD2C39496200CD0C3C /* iOSProjectShaadiTests.swift in Sources */,
 				48B8D9B62C63666B0033AB30 /* OTPTextField.swift in Sources */,
 			);
@@ -408,7 +409,6 @@
 				01E201C92C39496200CD0C3C /* iOSProjectShaadiUITestsLaunchTests.swift in Sources */,
 				01E201C72C39496200CD0C3C /* iOSProjectShaadiUITests.swift in Sources */,
 				48B8D9B42C63666B0033AB30 /* OTPTextField.swift in Sources */,
-				AC6ACC0D2C70DB2D002ED8A7 /* WelcomeItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
